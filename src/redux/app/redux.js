@@ -1,4 +1,4 @@
-const initalState = {
+const initialState = {
     openSidebar: false
 }
 
@@ -15,7 +15,7 @@ const Action = {
     }
 }
 
-const reducer = function (state = initalState, action) {
+const reducer = function (state = initialState, action) {
     switch(action.type) {
         default: return state
 
