@@ -1,10 +1,10 @@
-import {createBrowserHistory} from 'history'
+import {createBrowserHistory} from 'history';
 
-const HISTORY = createBrowserHistory()
+const HISTORY = createBrowserHistory();
 
 
-const Navigate = (url) => {
+const navigate = (url) => {
     HISTORY.push(url)
-}
+};
 
-export {HISTORY, Navigate};
+export {HISTORY, navigate};
