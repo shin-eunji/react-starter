@@ -2,6 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import {Route, Switch} from "react-router-dom";
 
+import Home from "./views/pages/Home";
+import Todo from "./views/pages/Todo";
+
 function Routes (props) {
 
     const {} = props;
@@ -9,7 +12,7 @@ function Routes (props) {
     return (
         <Container>
             <Switch>
-                <Route exact path={'/'} component={}></Route>
+                <Route exact path={'/'} component={Home}></Route>
             </Switch>
         </Container>
     )
