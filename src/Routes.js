@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import {Route, Switch} from "react-router-dom";
 
 import Home from "./views/pages/Home";
-import Todo from "./views/pages/Todo";
+
 
 function Routes (props) {
 
