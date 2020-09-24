@@ -8,7 +8,7 @@ export const Action = createActions({
     updateState: ['state']
 })
 
-export const reducers = createReducer(initialState,{
+export const reducer = createReducer(initialState,{
     [Action.Types.UPDATE_STATE]: (state, {state: newState}) => ({
         ...state,
         ...newState
