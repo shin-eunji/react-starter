@@ -1,18 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
-import Visual from "../../components/Visual";
+import Gnb from "./Gnb";
+import Lnb from "./Lnb";
 
-function Home (props) {
+function Nav (props) {
 
     const {} = props;
 
     return (
         <Container>
-            <Visual/>
+            <Gnb/>
+            <Lnb/>
         </Container>
     )
 }
 
 const Container = styled.div`
+    display:flex;
+    flex-direction:column;
 `
-export default Home;
+export default Nav;

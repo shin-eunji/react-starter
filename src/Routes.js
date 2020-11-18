@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Route, Switch} from "react-router-dom";
 
 import Home from "./views/pages/Home";
+import Header from "./views/components/Header";
 
 
 function Routes (props) {
@@ -11,6 +12,7 @@ function Routes (props) {
 
     return (
         <Container>
+            <Header/>
             <Switch>
                 <Route exact path={'/'} component={Home}></Route>
             </Switch>
