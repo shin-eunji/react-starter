@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Visual from "../../components/Visual";
 
 function Home (props) {
 
@@ -8,7 +7,7 @@ function Home (props) {
 
     return (
         <Container>
-            <Visual/>
+            Home
         </Container>
     )
 }
